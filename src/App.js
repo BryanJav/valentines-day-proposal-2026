@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./App.css";
 import Success from "./components/Success";
 import Asking from "./components/Asking";
-import flowerBear from "./flowerBear.gif";
-import madBear from "./madBear.gif";
+import myMelody from "./teasing-cute.gif";
+import cryingMyMelody from "./crying-my-melody-crying.gif";
 
 /**
  * Main App component managing the Valentine's Day proposal.
@@ -27,10 +27,10 @@ const App = () => {
     setRejected(true);
     // Array of rejection messages
     const rejectionTexts = [
-      "Are you sure?",
-      "Maybe try again?",
-      "Think again!",
-      "Loser :(",
+      "Sure ka ba?",
+      "Pag-isipan mo ulit!",
+      "Sige na pleaseee!",
+      "Pagbigyan mo na ako! :(",
     ];
     // Randomly select a rejection message
     let randomIndex;
@@ -48,7 +48,7 @@ const App = () => {
         {/* Asking to be my Valentine */}
         {!accepted && (
           <Asking
-            gif={rejected ? madBear : flowerBear}
+            gif={rejected ? cryingMyMelody : myMelody}
             altText={rejected ? "Rejected Bear" : "I love you Bear"}
             handleAccept={handleAccept}
             handleReject={handleReject}

@@ -1,5 +1,5 @@
 * {
-  font-family: "Lobster", cursive;
+  font-family: "Work Sans", sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 
 .App-gif {
-  width: 300px;
+  width: 350px;
   height: 350px;
 }
 
@@ -72,7 +72,6 @@
 }
 
 .App-text-success:before {
-  content: "\1F496";
   color: #ff4d4d;
   margin-right: 5px;
   font-size: 24px;
@@ -88,7 +87,6 @@
 }
 
 .App-text-date:before {
-  content: "\1F495";
   color: #ff4d4d;
   margin-right: 5px;
 }

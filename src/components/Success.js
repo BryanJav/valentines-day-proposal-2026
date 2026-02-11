@@ -1,5 +1,5 @@
 import React from "react";
-import kisses from "../kisses.gif";
+import successKuromi from "../kuromi-melody.gif";
 
 /**
  * Success component displaying a sweet message upon acceptance.
@@ -9,17 +9,16 @@ import kisses from "../kisses.gif";
 const Success = () => (
   <div className="App-success">
     {/* Displaying a cute kisses gif */}
-    <img className="App-gif" src={kisses} alt="Kisses" />
+    <img className="App-gif" src={successKuromi} alt="Kisses" />
     {/* Personalized success messages */}
     <p className="App-text-success">
-      You're my favorite movie buddy, my princess, and the one I enjoy every
-      moment with.
+      Yaaayy! I love you so much hihi 💕
     </p>
     <p className="App-text-success">
-      Looking forward to spending Valentine's Day with you, Jocelyn.
+      Check your email for more details! See yaaaa 💕
     </p>
     {/* Displaying the date of the special moment */}
-    <p className="App-text-date">12/23/2023</p>
+    <p className="App-text-date">02/14/2026</p>
   </div>
 );
 
