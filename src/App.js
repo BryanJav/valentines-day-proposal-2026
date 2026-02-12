@@ -22,9 +22,11 @@ const App = () => {
     setAccepted(true);
     
     // Change the draft id for the specific draft to be sent
-    var draftId = "r-8518368559035402598"
+    const draftId = "r-2385666043668213376";
+    const baseUrlLocal = "http://localhost:8080/drafts/send?draftId="
+    const baseUrlDeployed = "https://valentines-day-api-2026.onrender.com/drafts/send?draftId="
 
-    fetch(`https://valentines-day-api-2026.onrender.com/drafts/send?draftId=${draftId}`, {
+    fetch(baseUrlDeployed + draftId, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
