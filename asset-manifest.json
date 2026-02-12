@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/valentines-day-proposal-2026/static/css/main.213c4d04.css",
-    "main.js": "/valentines-day-proposal-2026/static/js/main.55bc2742.js",
+    "main.js": "/valentines-day-proposal-2026/static/js/main.9fe19570.js",
     "static/js/453.143806ee.chunk.js": "/valentines-day-proposal-2026/static/js/453.143806ee.chunk.js",
     "static/media/crying-my-melody-crying.gif": "/valentines-day-proposal-2026/static/media/crying-my-melody-crying.eb898fdb1103e89037e9.gif",
     "static/media/teasing-cute.gif": "/valentines-day-proposal-2026/static/media/teasing-cute.1e9916745b3011c34b4f.gif",
     "static/media/kuromi-melody.gif": "/valentines-day-proposal-2026/static/media/kuromi-melody.dbbac8718c36e3c2b5cd.gif",
     "index.html": "/valentines-day-proposal-2026/index.html",
     "main.213c4d04.css.map": "/valentines-day-proposal-2026/static/css/main.213c4d04.css.map",
-    "main.55bc2742.js.map": "/valentines-day-proposal-2026/static/js/main.55bc2742.js.map",
+    "main.9fe19570.js.map": "/valentines-day-proposal-2026/static/js/main.9fe19570.js.map",
     "453.143806ee.chunk.js.map": "/valentines-day-proposal-2026/static/js/453.143806ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.213c4d04.css",
-    "static/js/main.55bc2742.js"
+    "static/js/main.9fe19570.js"
   ]
 }
