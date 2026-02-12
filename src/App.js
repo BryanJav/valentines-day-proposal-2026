@@ -26,7 +26,7 @@ const App = () => {
     // const baseUrlLocal = "http://localhost:8080/drafts/send";
     const baseUrlDeployed = "https://valentines-day-api-2026.onrender.com/drafts/send"
 
-    fetch(baseUrlLocal, {
+    fetch(baseUrlDeployed, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
