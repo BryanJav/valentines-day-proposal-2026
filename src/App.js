@@ -20,6 +20,16 @@ const App = () => {
   // Handler for accepting the proposal
   const handleAccept = () => {
     setAccepted(true);
+    
+    // Change the draft id for the specific draft to be sent
+    var draftId = "r-8518368559035402598"
+
+    fetch(`https://valentines-day-api-2026.onrender.com/drafts/send?draftId=${draftId}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
   };
 
   // Handler for rejecting the proposal
